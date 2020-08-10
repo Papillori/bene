@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+
+
+</head>
+<body>
+
+  <h1>
+    BOUH
+  </h1>
+  <script type="text/javascript">
+
+    var requestURL = 'court.json';
+    console.log (requestURL);
+
+    var request = new XMLHttpRequest();
+    request.open('GET', requestURL);
+    request.responseType = 'json';
+    request.send();
+    request.onload = function() {
+      var bene = request.response;
+      populateHeader(bene);
+      showbene(bene);
+    }
+
+    function bene(jsonObj){
+      var membres = jsonObj['Langues'];
+
+      for (var i = 0; i < membres.length; i++) {
+        var myh1 = document.createElement('h1');
+        var myList = document.createElement('ul');
+
+        myh1.textContent = 'Langues :';
+
+        var langues = membres[i].Langues;
+        for (var j = 0; j < langues.length; j++) {
+          var listItem = document.createElement('li');
+          listItem.textContent = langues[j];
+          myList.appendChild(listItem);
+        }
+
+      }
+    }
+  </script>
+
+</body>
+</html>
