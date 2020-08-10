@@ -11,9 +11,13 @@
   <h1>
     BOUH
   </h1>
+  <section>
+
+  </section>
   <script type="text/javascript">
 
-    var requestURL = 'court.json';
+    var section = document.querySelector('section');
+    var requestURL = 'https://papillori.github.io/bene/court.json';
     console.log (requestURL);
 
     var request = new XMLHttpRequest();
@@ -22,12 +26,11 @@
     request.send();
     request.onload = function() {
       var bene = request.response;
-      populateHeader(bene);
-      showbene(bene);
+      bene1(bene);
     }
 
-    function bene(jsonObj){
-      var membres = jsonObj['Langues'];
+    function bene1(jsonObj){
+      var membres = jsonObj['Bénévole'];
 
       for (var i = 0; i < membres.length; i++) {
         var myh1 = document.createElement('h1');
@@ -41,6 +44,7 @@
           listItem.textContent = langues[j];
           myList.appendChild(listItem);
         }
+        section.appendChild(myList);
 
       }
     }
