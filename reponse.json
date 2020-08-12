@@ -2,6 +2,7 @@
  {
    "Horodateur": "2020/08/11 4:46:56 PM UTC+2",
    "Prénom": "Tartuff ",
+   "Pseudo": "Tartuff2",
    "Nom": "chaton ",
    "Pronom (elle, il, iel, autre...)": "il",
    "Âge (pendant le salon)": 3,
@@ -35,9 +36,10 @@
    "Charte du bénévole": "Lue et approuvée.",
    "Un commentaire en général ?": "Miaou"
 },
- {
+{
    "Horodateur": "2020/08/11 4:52:58 PM UTC+2",
    "Prénom": "Delphine",
+   "Pseudo": "Dédé",
    "Nom": "Desusclade",
    "Pronom (elle, il, iel, autre...)": "elle, el, ou n'importe",
    "Âge (pendant le salon)": 31,
@@ -71,9 +73,10 @@
    "Charte du bénévole": "Lue et approuvée.",
    "Un commentaire en général ?": "Bisous ! ♥"
 },
- {
+{
    "Horodateur": "2020/08/11 4:54:28 PM UTC+2",
    "Prénom": "Le",
+   "Pseudo": "",
    "Nom": "Homard",
    "Pronom (elle, il, iel, autre...)": "Il",
    "Âge (pendant le salon)": 31,
@@ -107,9 +110,10 @@
    "Charte du bénévole": "Lue et approuvée.",
    "Un commentaire en général ?": "JE SUIS LE HOMARD OUI"
 },
- {
+{
    "Horodateur": "2020/08/11 4:59:10 PM UTC+2",
    "Prénom": "Humble",
+   "Pseudo": "",
    "Nom": "Bundledore",
    "Pronom (elle, il, iel, autre...)": "Ol",
    "Âge (pendant le salon)": 99,
@@ -143,9 +147,11 @@
    "Charte du bénévole": "Lue et approuvée.",
    "Un commentaire en général ?": ""
 },
- {
+{
    "Horodateur": "2020/08/11 5:05:37 PM UTC+2",
    "Prénom": "Léo",
+   "Pseudo": "Léonard",
+
    "Nom": "Nard",
    "Pronom (elle, il, iel, autre...)": "Bun",
    "Âge (pendant le salon)": 22,
@@ -179,9 +185,11 @@
    "Charte du bénévole": "Lue et approuvée.",
    "Un commentaire en général ?": "uwu ♥"
 },
- {
+{
    "Horodateur": "2020/08/11 5:10:45 PM UTC+2",
    "Prénom": "Nicolas",
+   "Pseudo": "PierrePhi",
+
    "Nom": "Flammèche",
    "Pronom (elle, il, iel, autre...)": "El",
    "Âge (pendant le salon)": 690,
